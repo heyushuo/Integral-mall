@@ -1,0 +1,50 @@
+@charset "utf-8";
+.themeblue{background-color: #78b1f8;background-image: -webkit-gradient(linear,left top,left bottom,from(#2764b0),to(#78b1f8));background-image: -webkit-linear-gradient(top,#2764b0,#78b1f8);background-image: linear-gradient(to bottom,#2764b0,#78b1f8);}
+.themered{background-color: #f34;background-image: -webkit-gradient(linear,left top,left bottom,from(#f34),to(#FD8C84));background-image: -webkit-linear-gradient(top,#f34,#FD8C84);background-image: linear-gradient(to bottom,#f34,#FD8C84);}
+.topcenter{height:120px;width:100%;display: block; @extend .themered}
+.myorder{width:100%;overflow:hidden;position: relative;top:50px;}
+.userhead{float:left;margin:30px 10px 0px 30px;width:68px;}
+.userhead img{width:68px;height:68px;border-radius: 34px;}
+.nipic{float:left;margin:38px 0px 0px  10px;font-size:14px;color:#fff;font-weight:bold;}
+.dingd{color:#f8cd71;margin-top:12px;}
+.buyer_stat{ overflow:hidden;}
+.buyer_stat li{background: #f2f2f2; float:left; width:25%; height:44px; line-height:24px;text-align:center; border-bottom:1px solid #ccc;font-size:15px;}
+.buyer_stat li a{ height:44px; display:block; color:#333333;}
+.buyer_stat li span, .buyer_stat li a { line-height:44px;} 
+.buyer_stat li.btn_2 a{border-left:1px solid #ccc;  }
+.buyer_stat li.btn_3 a{border-left:1px solid #ccc;  }
+.buyer_stat li.btn_4 a{border-left:1px solid #ccc; border-right:1px solid #ccc; }
+.buyer_stat li span{display:none; display:block; height:44px; border-left:1px solid #ccc;}
+.buyer_stat li.active{border-bottom: 0px; background: none;}
+.buyer_stat li.active a{ display:none;}
+.bgn{background:none;}
+
+
+
+/*订单列表*/
+.order_form {border-radius: 5px;border: 1px solid #aaa;margin: 10px;padding: 15px;font-size: 14px;color: #666;background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#ddd));background: -moz-linear-gradient(top,#fff,#ddd);box-shadow: 0.1em 0.1em 0.1em #ccc inset;}
+.order_form .con{margin:5px; border:1px solid #ddd; padding:5px; border-radius:5px; overflow:hidden;}
+.order_form .con p{ float:left; line-height:25px; margin:5px 5px 0 0;}
+.order_form .con p.ware_text{float: none;}
+.order_form .con p.price span, div.handle #order39_order_amount{color: #f34;}
+.null_order{ text-align: center; color: #ccc;margin-top:25px;}
+.null_order h4{ text-indent:10px; font-size: 18px; margin: 10px 0;}
+.null_order .order_pic{background: url(../images/order_pic.png) no-repeat center; height: 100px; background-size: contain;}
+.handle a{margin-right:5px;}
+.order_form img{height:60px;}
+
+/*订单详情*/
+.particular_wrap{ margin:15px;}
+.particular_wrap dl{ margin:10px 0;}
+.particular_wrap .ware_line{ margin:10px 0;color: #333;border: 1px solid #EAEAEA;background-color: #FFF;box-shadow: 0 0 2px rgba(0,0,0,.1);font-size: 14px;line-height: 24px;padding: 10px 0 5px 15px;}
+ .particular_wrap dl{ font-size: 14px; line-height: 16px; border-bottom: 1px solid #eaeaea; padding: 10px; color: #666;border: 1px solid #EAEAEA;background-color: #FFF;box-shadow: 0 0 2px rgba(0,0,0,.1);}
+.particular_wrap dl h2,.particular .particular_wrap dl h3{font-weight: normal; color: #333;}
+ .particular_wrap dl dt{min-width: 70px; float: left; padding-top: 5px; height: auto;}
+.particular_wrap .til_font{font-size:16px; color: #333; float: none; margin-bottom: 6px;}
+.particular_wrap dl dd{padding-left: 70px; min-height: 22px; padding-top: 5px;padding-bottom: 5px;overflow: visible;}
+.ware .ware_list{min-height: 60px; border-bottom:1px dashed #ddd;}
+.ware .ware_list strong ,.transportation span,.transportation b{color: #f34;}
+.ware .ware_pic, .ware .ware_text{float: left;}
+.ware .ware_text{margin:0px 0px 2px 10px;}
+.ware_pic img{width:50px;}
+.order_detail_list, .transportation, .fapiao{font-size: 14px;line-height: 24px;padding: 10px 0 5px 15px;margin: 15px;}
